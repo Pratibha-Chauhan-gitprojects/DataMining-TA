@@ -1,0 +1,24 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# VS Code settings (if you use it)
+.vscode/
+
+# Virtual environment
+venv/
+
+# Environment variables (if any)
+.env
+.env.*
+
+# FAISS index and reference data (these can be large or sensitive)
+faiss_index/
+reference_pdfs/
+markdown_data/
+
+# Log files
+*.log
+
+# Mac system files
+.DS_Store
